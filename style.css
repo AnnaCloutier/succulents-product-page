@@ -1,0 +1,20 @@
+/*ids*/
+#sections {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#nav-bar {
+    position: fixed;
+}
+
+
+
+/*media queries*/
+@media (min-width 800px) {
+    #sections {
+        display: flex;
+        flex-direction: column;
+    }
+}
