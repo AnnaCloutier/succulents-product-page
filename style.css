@@ -1,7 +1,38 @@
+h1 {
+    font-family: 'Oregano', cursive;
+}
+
+
+h2 {
+    font-family: 'Oregano', cursive;
+}
+
+
+/*section {
+    
+
+}*/
+
+/*classes*/
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    width: 50%;
+
+}
+
+
+
 /*ids*/
-#sections {
-    display: flex;
-    flex-direction: column;
+#header-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#footer-img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -12,9 +43,7 @@
 
 
 /*media queries*/
-@media (min-width 800px) {
-    #sections {
-        display: flex;
-        flex-direction: column;
-    }
+@media (min-width: 1024px) {
+
+
 }

@@ -1,55 +1,78 @@
-<header id="header">
+<!DOCTYPE HTML>
+<html lang="en">
 
-    <nav id="nav-bar">
-        <a href="#how-it-works" class="nav-link">How it Works</a>
-        <a href="#pricing" class="nav-link">Pricing</a>
-        <a href="#care" class="nav-link">Care</a>
-    </nav>
-    
-    <img id="header-img" src="" alt="Purple and green colorful succulents">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
 
-</header>
-  
-  
-<main>
-    
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <h2>Create a personalized succulent garden in a handmade pot</h2>
-        <input id="email" name="email" type="email" placeholder="Enter your email address" required />
-        <input id="submit" type="submit" />
-    </form>
-    
-    <div id="sections">
-        <section id="how-it-works">
-            <h3>How it Works</h3>
-            <ol>
-                <li>Choose your garden size: 1, 2, or 3 plants</li>
-                <li>Choose your plants</li>
-                <li>Choose your handmade pot</li>
-                <li>Add fascinators</li>
-            </ol>
-        </section>
+    <title>Succulents Product Page</title>
+    <!-- LINKS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-        <section id="pricing">
-            <h3>Pricing</h3>
-            <ul>
-                <li>Single plant, small pot: $10</li>
-                <li>Two plants, medium pot: $15</li>
-                <li>Three plants, large pot: $20</li>
-                <li>Fascinators: $3-$7 each</li>
-                <li>Pot upgrade: +$5</li>
-            </ul>
-        </section>
+<body>
 
-        <section id="care">
-            <h3>Care</h3>
-            <p>We recommend watching this video or taking a look at our FAQ page for expert tips on how to keep your new succulents happy and healthy.</p> 
-            <video id="video" controls width="250">
-                <source src=https://www.youtube.com/watch?v=f8nsXcxySig>
-            </video>
-        </section>
-    </div>
+    <header id="header">
 
-</main>
+        <nav id="nav-bar">
+            <a href="#how-it-works" class="nav-link">How it Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#care" class="nav-link">Care</a>
+        </nav>
+        
+        <img id="header-img" src="images/ogre-ear-header.jpg" alt="Ogre Ear Plant">
 
-<footer>FAQ | Terms | Contact</footer>
+    </header>
+
+
+    <main>
+        
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h1>Create a personalized succulent garden in a handmade pot</h1>
+            <input id="email" name="email" type="email" placeholder="Enter your email address to get started" required />
+            <input id="submit" type="submit" />
+        </form>
+        
+        <div id="sections">
+            <section id="how-it-works" class="container">
+                <h2>How it Works</h2>
+                <ol>
+                    <li>Choose your garden size: 1, 2, or 3 plants</li>
+                    <li>Choose your plants</li>
+                    <li>Choose your handmade pot</li>
+                    <li>Add fascinators</li>
+                </ol>
+            </section>
+
+            <section id="pricing" class="container">
+                <h2>Pricing</h2>
+                <ul>
+                    <li>Single plant, small pot: $10</li>
+                    <li>Two plants, medium pot: $15</li>
+                    <li>Three plants, large pot: $20</li>
+                    <li>Fascinators: $3-$7 each</li>
+                    <li>Pot upgrade: +$5</li>
+                </ul>
+            </section>
+
+            <section id="care" class="container">
+                <h2>Care</h2>
+                <p>We recommend watching this video or taking a look at our FAQ page for expert tips on how to keep your new succulents happy and healthy.</p> 
+                <video id="video" controls width="250">
+                    <source src=https://www.youtube.com/watch?v=f8nsXcxySig>
+                </video>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>FAQ | Terms | Contact  &copy 2021 Anna Cloutier 
+        <img id="footer-img" src="images/bloom-footer.jpg" alt="Aloe Flower">
+    </footer>
+
+</body>
+
+</html>
